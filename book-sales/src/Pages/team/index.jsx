@@ -1,8 +1,13 @@
+import Footer from "../../components/shared/Footer";
+import Header from "../../components/shared/Header";
+import TeamSec from "../../components/shared/TeamSec";
+
 export default function Team() {
   return (
-    <div style={{ padding: "2rem", textAlign: "center" }}>
-      <h1>Tim Kami</h1>
-      <p>Mengenal lebih dekat orang-orang di balik pengembangan proyek ini.</p>
-    </div>
+    <>
+      <Header />
+      <TeamSec />
+      <Footer />
+    </>
   );
 }
