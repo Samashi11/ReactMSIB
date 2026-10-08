@@ -6,6 +6,8 @@ import Books from "./Pages/books";
 // import LoginForm from "./components/shared/LoginForm";
 import Login from "./Pages/auth/login";
 import Register from "./Pages/auth/register";
+import Team from "./Pages/team";
+import Contact from "./Pages/contact";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route path="/books" element={<Books />} />
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />
+            <Route path="team" element={<Team />} />
+            <Route path="contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
       </div>

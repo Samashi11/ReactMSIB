@@ -29,14 +29,14 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <a href="#" className="nav-link px-2">
+            <Link to="/team" className="nav-link px-2">
               Team
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="nav-link px-2">
+            <Link to="/contact" className="nav-link px-2">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="col-md-3 text-end">
